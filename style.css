@@ -1,0 +1,37 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+}
+#borda{
+border: 50px;
+
+}
+
+.form{
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+}
+
+label {
+    font-weight: bold; /* Deixa o texto do label em negrito */
+    margin-bottom: 5px; /* Adiciona um pequeno espaço entre o label e o input */
+    color: #333; /* Define a cor do texto do label */
+    display: block; /* Faz o label ocupar a largura total do contêiner */
+}
+
+input[type="text"] {
+    padding: 10px; /* Adiciona um preenchimento interno ao campo de texto */
+    border: 1px solid #ccc; /* Define uma borda cinza ao redor do campo */
+    border-radius: 4px; /* Arredonda as bordas do campo */
+    font-size: 16px; /* Define o tamanho da fonte dentro do campo */
+    width: 100%; /* Faz o input ocupar a largura total do contêiner pai */
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+}
+
+.error-message {
+    color: red; /* Define a cor do texto da mensagem de erro para vermelho */
+    font-size: 0.9em; /* Define um tamanho de fonte menor para a mensagem de erro */
+    margin-top: 5px; /* Adiciona um pequeno espaço acima da mensagem de erro */
+    display: block; /* Faz a mensagem de erro ocupar a largura total */
+}
