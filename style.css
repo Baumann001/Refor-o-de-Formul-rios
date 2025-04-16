@@ -44,10 +44,14 @@ input[type="text"] {
 }
 .flex{
 text-align: center;
+position: relative;
 }
 
 .flex img {
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+    max-width: 100%;
+    height: auto;
+    /* O z-index padrão é auto (ou 0), que é menor que 10 */
 }
 
 .flex img:hover {
@@ -60,6 +64,20 @@ text-align: center;
     /* transform: skewY(-5deg); */ /* Inclina a imagem no eixo Y */
     cursor: pointer; /* Muda o cursor para indicar que é interativo */
 }
+nav {
+    /* Certifique-se de que a navegação está posicionada */
+    position: relative;
+    /* Defina um z-index alto para garantir que fique na frente */
+    z-index: 10; /* Você pode ajustar esse valor conforme necessário */
+    /* Outros estilos da sua navegação (mantenha os existentes) */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black; /* Se a sua header não tiver fundo preto */
+}
+
 nav ul {
     list-style: none;
    
