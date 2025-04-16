@@ -42,15 +42,15 @@ input[type="text"] {
     margin-top: 5px; /* Adiciona um pequeno espaço acima da mensagem de erro */
     display: block; /* Faz a mensagem de erro ocupar a largura total */
 }
-#flex{
+.flex{
 text-align: center;
 }
 
-#flex img {
+.flex img {
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
 }
 
-#flex img:hover {
+.flex img:hover {
     transform: scale(1.1); /* Aumenta a escala da imagem em 10% ao passar o mouse */
     /* Outras transformações que você pode usar: */
     /* transform: rotate(5deg); */ /* Rotaciona a imagem em 5 graus */
