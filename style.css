@@ -60,3 +60,25 @@ text-align: center;
     /* transform: skewY(-5deg); */ /* Inclina a imagem no eixo Y */
     cursor: pointer; /* Muda o cursor para indicar que é interativo */
 }
+nav ul {
+    list-style: none;
+   
+    
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    
+}
