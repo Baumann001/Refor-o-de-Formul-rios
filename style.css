@@ -1,16 +1,22 @@
 body{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: white;
+background-color:black;
+color: white;
 }
 #borda{
 border: 50px;
-background:rgb(20, 131, 235);
+background-color:black;
+color: white;
+}
+header{
+    background-color: black;
 }
 
 .form{
 margin-bottom: 15px;
 display: flex;
 flex-direction: column;
+color: white;
 }
 
 label {
@@ -18,6 +24,7 @@ label {
     margin-bottom: 5px; /* Adiciona um pequeno espaço entre o label e o input */
     color: #333; /* Define a cor do texto do label */
     display: block; /* Faz o label ocupar a largura total do contêiner */
+    color: white;
 }
 
 input[type="text"] {
@@ -34,4 +41,22 @@ input[type="text"] {
     font-size: 0.9em; /* Define um tamanho de fonte menor para a mensagem de erro */
     margin-top: 5px; /* Adiciona um pequeno espaço acima da mensagem de erro */
     display: block; /* Faz a mensagem de erro ocupar a largura total */
+}
+#flex{
+text-align: center;
+}
+
+#flex img {
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+#flex img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem em 10% ao passar o mouse */
+    /* Outras transformações que você pode usar: */
+    /* transform: rotate(5deg); */ /* Rotaciona a imagem em 5 graus */
+    /* transform: translateX(10px); */ /* Move a imagem 10 pixels para a direita */
+    /* transform: translateY(-10px); */ /* Move a imagem 10 pixels para cima */
+    /* transform: skewX(10deg); */ /* Inclina a imagem no eixo X */
+    /* transform: skewY(-5deg); */ /* Inclina a imagem no eixo Y */
+    cursor: pointer; /* Muda o cursor para indicar que é interativo */
 }
