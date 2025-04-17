@@ -39,6 +39,13 @@
         sexo: document.getElementById('sexoError' )
     };
 
+    function displayError(fieldId, message) {
+        if (errorMessages [fieldId]){
+            errorMassages [fieldId].text
+        }
+        
+    }
+
 
  }
 
