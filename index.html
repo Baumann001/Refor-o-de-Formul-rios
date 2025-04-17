@@ -40,8 +40,14 @@
         <input type="date" id="dataNascimento"   name="dataNascimento">
         <span class="error-message" id="dataNascimentoError"></span> 
 
-
         </div>
+
+        <div class="form">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" maxlength="14" >
+            <span class="error-message" id="cpfError"></span>
+        </div>
+
         <div class="flex">
         <h2>Endereço:</h2>
     </div>
@@ -156,8 +162,28 @@
         <span class="error-message" id="habilidadesError"></span>
     </div>
 
+    <div class="form">
+        <label>Sexo:</label>
+        <div>
+            <input type="radio" id="sexoMasculino" name="sexo" value="masculino" disabled>
+            <label for="sexoMasculino">Masculino</label>
+        </div>
+        <div>
+            <input type="radio" id="sexoFeminino" name="sexo" value="feminino" disabled>
+            <label for="sexoFeminino">Feminino</label>
+        </div>
+        <div>
+            <input type="radio" id="sexoOutro" name="sexo" value="outro" disabled>
+            <label for="sexoOutro">Outro</label>
+        </div>
+        <div>
+            <input type="radio" id="sexoNaoDeclarar" name="sexo" value="nao_declarar" disabled>
+            <label for="sexoNaoDeclarar">Prefiro não declarar</label>
+        </div>
+        <span class="error-message" id="sexoError"></span>
+    </div>
 
-
+    
 
 
 
@@ -180,6 +206,8 @@
     
     <footer>
         <p>&copy; 2025 Baumann Inovações Tecnológicas - Joinville, SC</p>
+            <p>Email: baumann_techinnovations@baumann.com.br</p>
+            <p>Telefone: (47) XXXX-XXXX</p>
     </footer>
 </body>
 </html>
